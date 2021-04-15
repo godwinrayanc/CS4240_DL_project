@@ -1,0 +1,7 @@
+setup.py
+crfnet.egg-info/PKG-INFO
+crfnet.egg-info/SOURCES.txt
+crfnet.egg-info/dependency_links.txt
+crfnet.egg-info/requires.txt
+crfnet.egg-info/top_level.txt
+utils/compute_overlap.pyx
