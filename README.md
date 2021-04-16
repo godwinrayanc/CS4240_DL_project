@@ -31,7 +31,7 @@ Pretrained weights are provided [here](https://syncandshare.lrz.de/dl/fi9RrjqLXy
 
 Example usage: 
 ```bash
-python train_crfnet.py --config configs/crf_net.cfg
+python train_crfnet.py --config configs/test_config.cfg
 ```
 
 ## Evaluate Model
@@ -46,7 +46,7 @@ in the config file. The values and curves are saved onto the hard drive.
     
 Example usage: 
 ```bash
-python evaluate_crfnet.py --model saved_models/crf_net.h5 --config configs/crf_net.cfg --st 0.5
+python evaluate_crfnet.py --model saved_models/epoch20.h5 --config configs/test_config.cfg --st 0.5
 ```
 
 ## Test Model
@@ -60,7 +60,7 @@ python evaluate_crfnet.py --model saved_models/crf_net.h5 --config configs/crf_n
 
 Example usage: 
 ```bash
-python test_crfnet.py --model saved_models/crf_net.h5 --config configs/crf_net.cfg --st 0.5
+python test_crfnet.py --model saved_models/epoch20.h5 --config configs/test_config.cfg --st 0.5
 ```
 
 ## Folder Structure
