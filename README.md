@@ -109,7 +109,7 @@ Additionally you can connect to it via `docker attach crfnet_gpu0`
 
 [2] M. Weber, "Autonomous Driving: Radar Sensor Noise Filtering and Multimodal Sensor Fusion for Object Detection with Artificial Neural Networks," Master’s Thesis, Technical University of Munich, 2019.
 
-If you find our work useful in your research, please consider citing:
+If you find our work useful in your research, please consider citing: Σ
 
     @INPROCEEDINGS{nobis19crfnet,
         author={Nobis, Felix and Geisslinger, Maximilian and Weber, Markus and Betz, Johannes and Lienkamp, Markus},
